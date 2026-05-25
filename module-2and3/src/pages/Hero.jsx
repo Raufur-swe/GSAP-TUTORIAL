@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 
-// register plugin
+// register plugin for scroll animations
 gsap.registerPlugin(ScrollTrigger)
 const Hero = () => {
   const boxref = useRef()
